@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    height: 100vh;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+
+/*MAIN PAGE*/
+main {
+    padding: 0 135px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/*The First View*/
+.nurtown-container{
+    margin-top: 105px;
+    height: 829px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 69px;
+}
+.nurtown-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 333px;
+    font-size: 64px;
+    line-height: 64px;
+    gap: 30px;
+}
+.nurtown-txt h2 {
+    font-weight: 300;
+    color: #BDBDBD;
+}
+.nurtown-txt h1 {
+    font-weight: 700;
+    color: #333333;
+}
+.nurtown-frames {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.nurtown-arrows {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22.94px;
+}
+.nurtown-arrows h1 {
+    padding: 22.5px;
+    border: 1px solid #F2F2F2;
+    color: #333333;
+    background-color: #fff;
+}
+
+#arrow-forward {
+    background-color: #F9F9F9;
+}
+#arrow-forward:hover {
+    background-color: #F9F9E8;
+    color: #000;
+}
+#arrow-back:hover {
+    background-color: #F9F9E8;
+    color: #000;
+}
+
+.nurtown-pages {
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #BDBDBD;
+    font-weight: 400;
+    gap: 26px;
+    font-size: 24px;
+}
+.nurtown-pages h2 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+/*Multiple using button*/
+.btn-template {
+    display: flex;
+    width: 222px;
+    height: 71px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.nurtown-pic .btn-template{
+    margin-top: -71px;
+}
+.btn-template a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/*О компании*/
+.company-container {
+    background-color: #FBFBFB;
+    height: 435px;
+    padding: 30px 0;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 70px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    box-sizing: border-box;
+}
+.two-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+.company-info {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+.company-info h1 {
+    color: #BDBDBD;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+}
+.company-info p {
+    color: #000000;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+.company-info div a {
+    background-color: #fff;
+}
+
+/*Основные задачи*/
+.main-aims {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-self: center;
+    margin-top: 120px;
+}
+.main-aims h1 {
+    color: #BDBDBD;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+}
+.aims-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 187px;
+    color: #333333;
+}
+
+.aim-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 413px;
+}
+.aim-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 570px;
+}
+
+/*Наши проекты*/
+.projects-info {
+    align-self: center;
+    width: 1170px;
+    margin-top: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    box-sizing: border-box;
+}
+.projects-info h1 {
+    align-self: flex-start;
+    color: #BDBDBD;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 60px;
+}
+.pics-row-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.pics-row-1 h1 {
+    position: absolute;
+    text-align: start;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    color: #fff;
+    width: 413px;
+    margin-left: 79px;
+    margin-top: 48px;
+}
+.pics-row-1 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 20%;
+    margin-left: 79px;
+    margin-top: 142px;
+    background-color: #00000093;
+    padding: 3px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.pics-row-1 a:hover {
+    background-color: #000000d5;
+}
+.pics-row-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.projects-info .btn-template {
+    background-color: #333333;
+    align-self: flex-end;
+}
+.projects-info .btn-template a{
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/*Наши проекты*/
+form {
+    align-self: center;
+    width: 1170px;
+    height: 603px;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 120px;
+    gap: 22px;
+}
+form h1 {
+    color: #BDBDBD;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.inputs {
+    display: flex;
+    outline: 1px solid #33333325;
+    resize: none;
+    width: 391px;
+    height: 46px;
+    gap: 10px;
+    background-color: #F3F3F3;
+    border: 0;
+    padding: 14px 0 14px  21px;
+}
+
+.label-tel {
+    display: inline-block;
+    width:100%;
+    background: linear-gradient(to right, #000 8em, red 1em);
+}
+.input-container 
+input:invalid {/* color part of text only when placeholder is shown */
+    mix-blend-mode: screen;
+}
+.label-email {
+    background: linear-gradient(to right, #000 3.6em, red 1em);
+}
+
+#message-txt {
+    height: 147px;
+}
+
+.agreement {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 391px;
+}
+#agree-check {
+    color: #333333;
+    outline: none;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+
+#submit-btn {
+    width: 222px;
+    height: 71px;
+    background-color: #333333;
+    color: #FFF;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 20%;
+    border: 0;
+    cursor: pointer;
+}

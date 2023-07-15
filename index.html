@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./images/fvc.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architects</title>
+    <!--Link Css-->
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./footer_style.css">
+        <link rel="stylesheet" href="./header_style.css">  
+</head>
+<body>
+        <!-- Header With Navbar -->
+        <header>
+            <nav>
+                <a href="#">
+                    <img src="./images/logo.png" alt="logo.png" class="logo">
+                </a>   
+                <ul>    
+                    <a href="./index.html">ГЛАВНАЯ</a>
+                    <a href="./gallery.html">ГАЛЕРЕЯ</a>
+                    <a href="./projects.html">ПРОЕКТЫ</a>
+                    <a href="./certificates.html">СЕРТИФИКАТЫ</a>
+                    <a href="./contacts.html">КОНТАКТЫ</a>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- The Main View -->
+        <main>
+            <div class="nurtown-container">
+                <div class="nurtown-frames">
+                    <div class="nurtown-txt">
+                        <h2>PROJECT</h2>
+                        <h1>NURTOWN</h1>
+                    </div>
+
+                    <div class="nurtown-arrows">
+                        <h1 id="arrow-back"><ion-icon name="arrow-back-outline"></ion-icon></h1>
+                        <h1 id="arrow-forward"><ion-icon name="arrow-forward-outline"></ion-icon></h1>
+                    </div>
+
+                    <div class="nurtown-pages">
+                        <h3>01</h3>
+                        <h2>/</h2>
+                        <h3>02</h3>
+                    </div>
+                </div>
+
+                <div class="nurtown-pic">
+                    <img src="./images/nurtown-pic.png" alt="Nurtown Building.png">
+                    <div class="btn-template">
+                        <a href="#">ВЗГЛЯНУТЬ <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--О компании-->
+            <div class="company-container">
+                <div class="two-pic">
+                    <img src="./images/comp-pic-1.png" alt="Picture1.png">
+                    <img src="./images/comp-pic-2.png" alt="Picture2.png">
+                </div>
+                <div class="one-pic">
+                    <img src="./images/comp-pic-3.png" alt="Picture3.png">
+                </div>
+                <div class="company-info">
+                    <h1>О компании</h1>
+                    <p>Компания основана в 2010 году. За короткий срок нашим бюро самостоятельно и в партнерстве с другими организациями было разработано свыше 200 проектов различной сложности и конфигурации.
+
+                        Активная деятельность компании, профессионализм сотрудников, междисциплинарный подход в работе — позволили сформировать обширную, устойчивую сеть клиентов и партнеров. Подобное сотрудничество помогает бюро профессионально развиваться, добиваться поставленных задач и реализовать самые смелые, неординарные проекты.</p>
+                    <div class="btn-template">
+                        <a href="#">ЧИТАТЬ <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Основные задачи-->
+            <div class="main-aims">
+                <h1>Основные задачи</h1>
+                <div class="aims-container">
+                    <div class="aim-1">
+                        <img src="./images/1.png" alt="">
+                        <h2>Создание комфортных условий и повышение качества обслуживания клиентов</h2>
+                    </div>
+                    <div class="aim-2">
+                        <img src="./images/2.png" alt="">
+                        <h2>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!--Наши проекты-->
+            <div class="projects-info">
+                <h1>Наши проекты</h1>
+                <div class="pics-row-1">
+                    <img src="./images/project-pics/pic-1.jpg" alt="picture.png">
+                    <h1>ДОСУГОВЫЙ  
+                        ЦЕНТР</h1>
+                    <a href="#" id="inimage-btn">ПОДРОБНЕЕ <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    <img src="./images/project-pics/pic-2.png" alt="picture.png">
+                </div>
+                <div class="pics-row-2">
+                    <img src="./images/project-pics/pic-3.png" alt="picture.png">
+                    <img src="./images/project-pics/pic-4.png" alt="picture.png">
+                    <img src="./images/project-pics/pic-5.png" alt="picture.png">
+                </div>
+                <div class="btn-template">
+                    <a href="#">ВСЕ ПРОЕКТЫ <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+
+            <!--Связаться с нами-->
+            <form action="#">
+                <h1>Связаться с нами</h1>
+                <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 30px;">
+                    <div class="input-container">
+                        <label for="inputs">
+                            <input class="inputs" type="text" placeholder="Имя">
+                        </label>
+                        <label for="inputs" class="label-tel">
+                            <input class="inputs" type="tel" placeholder="Номер телефона *" required>
+                        </label>
+                        <label for="inputs" class="label-email">
+                            <input class="inputs" type="email" placeholder="E-mail *" required>
+                        </label>
+                        <label for="inputs">
+                            <input class="inputs" type="text" placeholder="Интересующий товар / услуга">
+                        </label>
+                        <label for="inputs" class="label-txt">
+                            <textarea class="inputs" name="message" id="message-txt" rows="7" placeholder="Сообщение" required></textarea>
+                        </label>
+                    </div>
+                <img src="./images/contact-img.png" alt="Contact Us">
+                </div>
+                <div class="agreement">
+                    <input type="checkbox" name="agree-check" id="agree-check">
+                    <p>Отправляя заявку Вы соглашаетесь
+                        с политикой 
+                       конфиденциальности</p>
+                </div>
+                <input type="submit" value="ОТПРАВИТЬ   ➜" id="submit-btn">
+                
+            </form>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer_info">
+                <img src="./images/Footer_logo.png" alt="Logo.png">
+                <div class="info">
+                    <h1>Информация</h1>
+                    <a href="./index.html">Главная</a>
+                    <a href="./gallery.html">Галерея</a>
+                    <a href="./projects.html">Проекты</a>
+                    <a href="./certificates.html">Сертификаты</a>
+                    <a href="./contacts.html">Контакты</a>
+                </div>
+
+                <div class="contact">
+                    <h1>Контакты</h1>
+                    <div class="contact_adress contact_items">
+                        <ion-icon name="location-outline"></ion-icon><h2>100000, Республика  Казахстан, 
+                        г. Караганда, ул. Телевизионная 10</h2>
+                    </div>
+
+                    <div class="contact_tel contact_items">
+                        <ion-icon name="call-outline"></ion-icon><h2>+7 (701) 77 76 811</h2>
+                    </div>
+                    <div class="contact_email contact_items">
+                        <ion-icon name="mail-outline"></ion-icon><h2>Galym.sultanov@mail.ru</h2>
+                    </div>
+                </div>
+
+                <div class="social">
+                    <h1>Социальные сети</h1>
+                    <div class="social_logos">
+                        <img src="./images/facebook.png" alt="fb_logo">
+                        <img src="./images/twitter.png" alt="tw_logo">
+                        <img src="./images/LinkedIn.png" alt="lk_logo">
+                        <img src="./images/pininterest.png" alt="pt_logo">
+                    </div>
+                </div>
+            </div>
+            <div class="footer_line"></div>
+            <p class="copyright_txt">© 2019 Digital Project. Все права защищены.</p>
+        </footer>
+    
+    <!--ICONS-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

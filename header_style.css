@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+
+/*HEADER NAV BAR*/
+header {
+    padding: 0px 269px 0px 135px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFF;
+    margin-bottom: 3px;
+    z-index: 5;
+}
+
+header nav{
+    height: 102px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 20%;
+    padding: 3.89px 0;
+}
+
+ul a:hover {
+    border-top: 1px solid #333333; 
+    border-bottom: 1px solid #333333;
+}
+
+ul a:focus {
+    border-top: 1px solid #333333; 
+    border-bottom: 1px solid #333333;
+}
+ul {
+    list-style-type: none;
+}

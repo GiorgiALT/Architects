@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    height: 100vh;
+    font-family: 'Didact Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 1170px;
+    height: 100%;
+    align-self: center;
+    margin-top: 165px;
+}
+
+.headers h2 {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+.headers h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.main_line {
+    margin: 30px 0 30px 0;
+    max-width: 100%;
+    height: 1px;
+    background-color: #F2F2F2;
+}
+
+.main_pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 440px;
+    width: 210px;
+    height: 120px;
+    background-color: #FBFBFB;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+.rectangle p {
+    margin-top: 20px;
+    width: 170px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #333333;
+    z-index: 2;
+}
+.pages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.page_numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.pages h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+}
+.pages h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #E0E0E0;
+}
+
+.pages h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.arrows {
+    margin-left: 41px;
+    display: flex;
+    align-items: center; 
+    gap: 22px;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    padding: 15px; 
+    background-color: #FFF;
+    border: 1px solid #f2f2f2;
+}
+.arrow:hover {
+    background-color: #f2f2f2;
+}

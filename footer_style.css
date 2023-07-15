@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+/*FOOTER Styles*/
+
+footer {
+    margin-top: 120px;
+    max-width: 100%;
+    height: 417px;
+    background-color: #2C2C2C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_info {
+    width: 80%;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.footer_info h1 {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.footer_info h2 {
+    width: 314px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    margin-bottom: 32px;
+}
+.footer_info ion-icon {
+    color: #FFF;
+    position: relative;
+    top: 4.3px;
+}
+
+.contact_items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 19px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info a {
+    text-decoration: none;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.social_logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer_line {
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+    opacity: 0.1;
+    margin-top: 60px;
+}
+
+.copyright_txt {
+    margin-top: 24px;
+    color: #C8C8C880;
+    margin-bottom: 16px;
+}
