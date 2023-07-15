@@ -1,2 +1,3 @@
 # Architects
-Architects design Without Responsive
+⚠️ Warning: 🚫 Russian Content 🚫
+Architects design ⚠️ Without Responsive ⚠️
